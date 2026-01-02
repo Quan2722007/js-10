@@ -34,7 +34,6 @@ input {
     padding: 0 8px;
 }
 #demo {
-    display: none;
     color: rgba(255, 0, 0, 0.852);
     font-size: 14px;
     font-weight: 500;
@@ -65,4 +64,17 @@ button:hover {
     padding: 40px;
     background-color: rgb(232, 252, 255);
     box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.63);
+}
+.content {
+    color: rgba(0, 0, 0, 0.401);
+}
+#nameOutput {
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+#mssvOutput {
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
 }
