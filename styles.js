@@ -10,7 +10,7 @@ function inputForm() {
     if (!/^[0-9]{8}$/.test(mssv)) {
         document.getElementById(
             "demo"
-        ).innerText = `MSSV chỉ được phép ghi số!`;
+        ).innerText = `MSSV phải ghi đủ 8 số và chỉ được ghi số !`;
         return;
     }
     document.getElementById("containerForm").style.display = "none";
